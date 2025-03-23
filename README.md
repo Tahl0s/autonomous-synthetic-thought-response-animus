@@ -1,5 +1,5 @@
 
-# 🧠 A.S.T.R.A.
+# 🧠 A.S.T.R.A. - WIP
 
 # autonomous-Synthetic-thought-response-animus
 
