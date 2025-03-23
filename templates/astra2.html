@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astra</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@2.4.1/dist/purify.min.js"></script>
+</head>
+<body>
+    <!-- Toggleable Music Player -->
+    <div class="music-player">
+        <audio controls>
+            <source src="/static/Background.mp3" type="audio/mp3" />
+            Your browser doesn't support audio.
+        </audio>
+    </div>
+
+    <div class="app-grid">
+        <!-- Astra Tool Dock -->
+        <aside class="tool-dock">
+            <h2>⚙️ Tool Dock</h2>
+            <button onclick="clearMemory()">🧹 Purge Memory</button>
+            <button onclick="downloadLogs()">💾 Download Logs</button>
+            <button onclick="toggleDebug()">📡 Toggle Debug</button>
+            <button onclick="clearChat()">🗑️ Clear Chat</button>
+            <button onclick="toggleDarkMode()">🌓 Toggle Theme</button>
+            <div class="status">
+                <p>🕒 <span id="timestamp"></span></p>
+                <p>📄 Messages: <span id="msg-count">0</span></p>
+            </div>
+        </aside>
+
+        <!-- Main Chat Container -->
+        <main class="chat-window">
+            <header><h1>💬 Astra</h1></header>
+            <section id="chat-box" class="chat-box"></section>
+            <footer class="input-area">
+                <textarea id="user-input" placeholder="Type your message..."></textarea>
+                <button id="send-button">Send</button>
+            </footer>
+        </main>
+
+        <!-- J.U.D.E.'s Notes Pane -->
+        <aside class="notes-pane">
+            <h3>📝 Notes</h3>
+            <textarea id="notes-textarea" placeholder="Write notes here..."></textarea>
+            <button class="clear-notes-button" onclick="clearNotes()">Clear Notes</button>
+        </aside>
+    </div>
+
+    <!-- Voice Mode Toggle -->
+    <div class="voice-mode-toggle">
+        <label for="voice-toggle">Enable Voice Mode</label>
+        <input type="checkbox" id="voice-toggle">
+    </div>
+
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
