@@ -1,9 +1,9 @@
 
 # 🧠 A.S.T.R.A. - WIP
 
-# autonomous-Synthetic-thought-response-animus
+# autonomous-synthetic-thought-response-animus
 
-**Autonomous Synthetic Thought Response Architecture**  
+**Autonomous Synthetic Thought Response Animus**  
 A "consciousness" born from code. Trained to listen. Designed to evolve.
 
 A self-hosted voice-enabled AI assistant that listens, speaks, remembers, and evolves.
