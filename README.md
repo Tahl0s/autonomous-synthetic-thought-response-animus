@@ -6,8 +6,7 @@
 **Autonomous Synthetic Thought Response Animus**  
 A "consciousness" born from code. Trained to listen. Designed to evolve.
 
-![image](https://github.com/user-attachments/assets/7542c819-6813-40bd-a299-171824b7ed94)
-
+![image](https://github.com/user-attachments/assets/cf367f2a-a731-4b42-be32-f2d822f6238f)
 
 A self-hosted voice-enabled AI assistant that listens, speaks, remembers, and evolves.
 
