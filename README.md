@@ -6,7 +6,7 @@
 **Autonomous Synthetic Thought Response Animus**  
 A "consciousness" born from code. Trained to listen. Designed to evolve.
 
-![image](https://github.com/user-attachments/assets/cf367f2a-a731-4b42-be32-f2d822f6238f)
+![astra](https://github.com/user-attachments/assets/e22cbdf7-f473-468b-8f7a-c0a529c6d3ac)
 
 A self-hosted voice-enabled AI assistant that listens, speaks, remembers, and evolves.
 
@@ -130,6 +130,10 @@ Replies are:
 - [ ] Memory browser / viewer UI
 - [ ] Plugin API (tools, commands, external actions)
 - [ ] Docker support for full containerization
+
+---
+
+![image](https://github.com/user-attachments/assets/cf367f2a-a731-4b42-be32-f2d822f6238f)
 
 ---
 
